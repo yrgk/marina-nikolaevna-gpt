@@ -4,8 +4,8 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.enums import ChatType, ParseMode
 from aiogram.client.default import DefaultBotProperties
 
-from config import CONFIG
-from gpt_service import make_answer
+from .config import CONFIG
+from .gpt_service import make_answer
 
 LOG_LEVEL = logging.INFO
 

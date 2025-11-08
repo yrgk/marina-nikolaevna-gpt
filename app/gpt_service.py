@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-from config import CONFIG
+from .config import CONFIG
 
 client = OpenAI(
     base_url=CONFIG.BASE_URL,

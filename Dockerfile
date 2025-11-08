@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY app/ ./app/
 
 ENV PYTHONUNBUFFERED=1
-ENV PYTHONPATH=/app
 
 # Команда запуска
 CMD ["python", "-m", "app.main"]
